@@ -1,0 +1,664 @@
+* {
+  /* padding: 0; */
+  margin: 0;
+}
+/*semua tag a yang ada didalam 
+body akan berwaran putih dan 
+garis bawahnya hilang*/
+a {
+  text-decoration: none;
+}
+
+/* CSS Top Contact Medsos*/
+.medsos {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #15477a;
+}
+.medsos ul li {
+  display: inline-block;
+  margin: auto 5px;
+  /*color: #ffffff;*/
+}
+.medsos li a {
+  color: #fff;
+  list-style: none;
+}
+/* End CSS Top Contact Medsos */
+
+/*Logo SMPK Yapenthom 1 Maumere */
+/* .info-logo {
+  padding: 30px;
+} */
+/* .info-logo img {
+  width: 160px;
+  height: 160px;
+  margin-right: 40px;
+} */
+/* .info-logo h1 {
+  margin-top: 20px;
+} */
+/* CSS untuk tombol cari */
+/* .mycari {
+  padding: 100px 0;
+} */
+
+/* CSS Header */
+header {
+  padding: 40px 0;
+}
+.brand {
+  display: flex;
+}
+.brand img {
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.brand-name {
+  margin: auto;
+}
+.brand .brand-name h1 {
+  color: #15477a;
+  font-size: 25pt;
+}
+.brand .brand-name h3 {
+  font-size: 15pt;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #888888;
+}
+.pembungkus-searchbox {
+  display: flex;
+  align-items: center;
+}
+.searchbox {
+  width: 100%;
+}
+.btn.btn-utama {
+  background-color: #15477a;
+  color: #fff;
+  font-weight: 600;
+}
+.btn.btn-utama:hover {
+  background-color: #125ca7;
+}
+/* End CSS Header */
+
+/* CSS Untuk Slider Hero Area */
+#hero-area {
+  position: relative;
+}
+#hero-area .slider-item-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  text-align: center;
+  width: 60%;
+}
+#hero-area .slider-item-content h2 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #15477a;
+}
+#hero-area .slider-item-content p {
+  font-size: 20px;
+  font-weight: 400;
+}
+#slider-hero-nav .owl-prev,
+#slider-hero-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  border: none;
+  background-color: #15477a;
+  color: #ffffff;
+  outline: none;
+  padding: 10px 25px;
+}
+#slider-hero-nav .owl-prev {
+  left: 0;
+  border-radius: 0 50px 50px 0;
+}
+#slider-hero-nav .owl-next {
+  right: 0;
+  border-radius: 50px 0 0 50px;
+}
+#slider-hero-nav .owl-prev:hover,
+#slider-hero-nav .owl-next:hover {
+  background-color: #ffc107;
+  cursor: pointer;
+}
+/* End CSS Untuk Slider Hero Area */
+
+/* CSS untuk navbar*/
+.bg-dark {
+  background-color: #15477a !important;
+}
+.navbar-dark .nav-item .nav-link {
+  color: #ffffff;
+}
+.navbar {
+  padding: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.45px;
+  border-bottom: 5px solid #ffc107;
+}
+.nav-item.active {
+  background-color: #ffc107;
+}
+.nav-item {
+  padding: 10px 15px;
+}
+.nav-item:hover {
+  background-color: #ffc107;
+}
+.dropdown-item:hover {
+  background-color: #15477a;
+  color: #ffffff;
+}
+/* End CSS untuk navbar */
+/* section {
+  margin-bottom: 90px;
+} */
+/* CSS untuk Profil Dan Sambutan Kepala Sekolah */
+#sambutan {
+  margin: 90px 0;
+}
+#sambutan h2 {
+  color: #15477a;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+/* End CSS untuk Profil Dan Sambutan Kepala Sekolah */
+
+/* CSS Prestasi */
+#prestasi {
+  min-height: 250px;
+  margin: 90px 0;
+}
+#prestasi .col-md-kanan {
+  padding: 30px;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 90px;
+}
+.section-item {
+  margin: 60px 0;
+  box-shadow: 0 0 25px #dddddd;
+  min-height: 260px;
+  overflow: hidden;
+}
+.section-item-thumbnail {
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.section-title h2 {
+  position: relative;
+  display: inline-block;
+  color: #15477a;
+  font-weight: 600;
+  font-size: 28pt;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.section-title h2:after {
+  position: absolute;
+  content: "";
+  width: 60%;
+  height: 3px;
+  background-color: #ffc107;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.section-item-title {
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+.section-item-title h3 {
+  font-size: 18pt;
+  color: #15477a;
+  line-height: 25px;
+  font-weight: 600;
+  padding-right: 40px;
+}
+.section-item-title span {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.section-item-title span i {
+  margin-right: 5px;
+}
+.section-item-title span:first-of-type {
+  margin-right: 15px;
+}
+/* CSS Untuk Tombol Selengkapnya */
+.tombol-selengkapnya {
+  text-align: center;
+  margin: 0 auto;
+}
+.btn.btn-more {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #15477a;
+  text-align: center;
+  display: inline-block;
+  border: 2px solid #15477a;
+  padding: 10px 40px;
+}
+.btn.btn-more:hover {
+  background-color: #15477a;
+  color: #ffffff;
+}
+/* CSS Untuk Tombol Selengkapnya */
+
+/* End CSS Prestasi*/
+
+/* CSS Untuk Tenaga Pendidik */
+/* .owl-carousel {
+  padding: 20px 10px;
+} */
+#tenaga-pendidik {
+  margin: 90px 0;
+}
+.section-item-slider {
+  height: 400px;
+  box-shadow: 0 0 20px #dddddd;
+  margin: 10px;
+  position: relative;
+}
+#tenaga-pendidik .foto-guru {
+  height: 100%;
+  object-fit: cover;
+}
+.section-item-caption {
+  position: absolute;
+  bottom: 0;
+  background-color: #ffffff;
+  color: black;
+  width: 100%;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 10px 15px;
+}
+.section-item-caption h5 {
+  color: #15477a;
+  font-weight: 600;
+  font-size: 20px;
+}
+.section-item-caption h6 {
+  font-size: 14px;
+  color: #ffc107;
+}
+#slider-tools-1 .owl-prev,
+#slider-tools-1 .owl-next {
+  position: absolute;
+  content: "";
+  transform: translateY(-50%);
+  top: 50%;
+  z-index: 20;
+  border: none;
+  background-color: #15477a;
+  color: #ffffff;
+  outline: none;
+  height: 35px;
+  width: 35px;
+}
+#tenaga-pendidik .section-body {
+  position: relative;
+}
+#slider-tools-1 .owl-prev {
+  left: -60px;
+  border-radius: 50%;
+}
+#slider-tools-1 .owl-next {
+  right: -60px;
+  border-radius: 50%;
+}
+#slider-tools-1 .owl-prev:hover,
+#slider-tools-1 .owl-next:hover {
+  background-color: #ffc107;
+  cursor: pointer;
+}
+/* End CSS Untuk Tenaga Pendidik */
+
+/* CSS Profil Alumni */
+#profil-alumni {
+  background-color: #15477a;
+  padding: 70px 0;
+  margin: 90px 0;
+}
+#profil-alumni .section-title h2 {
+  color: #ffffff;
+}
+#profil-alumni .section-item-slider {
+  box-shadow: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+#profil-alumni .section-item-slider {
+  height: 280px;
+  padding: 20px 20px;
+  overflow: hidden;
+}
+#profil-alumni .section-item-content h3 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffc107;
+}
+#profil-alumni .section-item-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+#profil-alumni .section-item-content .more {
+  font-size: 17px;
+  font-weight: 400;
+  color: #ffc107;
+}
+#profil-alumni .section-item-content .more i {
+  margin-left: 20px;
+}
+.foto-alumni {
+  height: 100%;
+  object-fit: cover;
+}
+#slider-tools-2 .owl-prev,
+#slider-tools-2 .owl-next {
+  position: absolute;
+  content: "";
+  transform: translateY(-50%);
+  top: 50%;
+  z-index: 20;
+  border: none;
+  background-color: #ffffff;
+  color: black;
+  outline: none;
+  height: 35px;
+  width: 35px;
+}
+#profil-alumni .section-body {
+  position: relative;
+}
+#slider-tools-2 .owl-prev {
+  left: -50px;
+  border-radius: 50%;
+}
+#slider-tools-2 .owl-next {
+  right: -50px;
+  border-radius: 50%;
+}
+#slider-tools-2 .owl-prev:hover,
+#slider-tools-2 .owl-next:hover {
+  background-color: #ffc107;
+  cursor: pointer;
+}
+/* End CSS Profil Alumni */
+
+/* CSS Galeri / Dokumentasi */
+#galeri {
+  margin: 90px 0;
+}
+#galeri .foto-guru {
+  height: 100%;
+  object-fit: cover;
+}
+#slider-tools-3 .owl-prev,
+#slider-tools-3 .owl-next {
+  position: absolute;
+  content: "";
+  transform: translateY(-50%);
+  top: 50%;
+  z-index: 20;
+  border: none;
+  background-color: #15477a;
+  color: #ffffff;
+  outline: none;
+  height: 35px;
+  width: 35px;
+}
+#galeri .section-body {
+  position: relative;
+}
+#slider-tools-3 .owl-prev {
+  left: -60px;
+  border-radius: 50%;
+}
+#slider-tools-3 .owl-next {
+  right: -60px;
+  border-radius: 50%;
+}
+#slider-tools-3 .owl-prev:hover,
+#slider-tools-3 .owl-next:hover {
+  background-color: #ffc107;
+  cursor: pointer;
+}
+.video-galeri {
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
+}
+/* End CSS Galeri / Dokumentasi */
+
+/* CSS Untuk Ekstrakurikuler */
+#ekstrakurikuler {
+  background-color: #dddddd;
+  padding: 80px 0;
+}
+#ekstrakurikuler .section-body-item {
+  background-color: #15477a;
+  border-radius: 5px;
+  padding: 20px;
+  color: #ffc107;
+  min-height: 200px;
+  /* display: flex; */
+  /* align-items: center; */
+  text-align: center;
+  font-size: 23px;
+}
+#ekstrakurikuler .section-body-item h4 {
+  font-weight: 500;
+}
+#ekstrakurikuler .section-body .row :first-of-type {
+  margin-bottom: 30px;
+}
+#ekstrakurikuler .row-2 {
+  position: relative;
+  top: 50%;
+  transform: translateY(40%);
+}
+/* End CSS Untuk Ekstrakurikuler  */
+
+/* CSS Untuk Berita Terbaru */
+#berita-terbaru {
+  padding: 80px 0;
+}
+#berita-terbaru .col-kontak {
+  margin-bottom: 50px;
+}
+.section-thumbnail {
+  width: 100%;
+  /* height: 237px; */
+  overflow: hidden;
+  position: relative;
+}
+.section-thumbnail img {
+  width: 100%;
+  object-fit: cover;
+}
+.section-thumbnail .tanggal {
+  position: absolute;
+  bottom: 30px;
+  z-index: 10;
+  background-color: #15477a;
+  color: #ffc107;
+  left: 30px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.section-thumbnail .tanggal span.tgl {
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+}
+.section-thumbnail .tanggal span.tgl-2 {
+  font-size: 15px;
+}
+#berita-terbaru .section-content {
+  padding: 20px 0 0;
+}
+#berita-terbaru .section-content h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.section-meta a {
+  background-color: #1272d3;
+  color: #ffffff;
+  padding: 5px 10px;
+}
+.section-meta a i {
+  margin-right: 10px;
+}
+/* End CSS Untuk Berita Terbaru */
+
+/* CSS Untuk Footer */
+footer {
+  background-color: #15477a;
+  margin-top: 90px;
+  color: #ffffff;
+  padding: 80px 0 0;
+}
+footer .brand {
+  display: flex;
+}
+footer .brand img {
+  width: 100px;
+  height: 100px;
+}
+footer .brand h2 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+footer .tentang {
+  font-size: 16px;
+  line-height: 26px;
+  padding: 10px 0;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+}
+footer .sosmed {
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 0;
+}
+footer .sosmed li {
+  display: inline-block;
+  margin-right: 20px;
+}
+footer .sosmed li a {
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+}
+footer .sosmed li a:hover {
+  color: #888888;
+}
+/* .col-alamat {
+  margin-top: 120px;
+} */
+.footer-col h2 {
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.footer-col .alamat {
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 20px;
+}
+.footer-col .kontak {
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+.footer-col .kontak li {
+  margin: 10px 0;
+}
+.footer-col .kontak i {
+  margin-right: 10px;
+}
+.footer-col .footer-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-col .footer-nav li {
+  margin: 10px 0;
+}
+.footer-col .footer-nav a {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 26px;
+}
+.footer-copyrights .border {
+  border-top: 1px dashed rgba(255, 255, 255, 0.5);
+  padding: 10px 0;
+}
+.footer-copyrights {
+  margin-top: 60px;
+  color: #c4c2c2;
+}
+.footer-copyrights h6 a {
+  color: inherit;
+}
+/* .footer-col {
+  margin: 30px 30px;
+} */
+
+/* End CSS Untuk Footer */
+
+/*.myslide{
+	box-shadow: 0  0  2px black;
+}*/
+
+/*Desktop Version*/
+@media (min-width: 600px) {
+  /* #profil-alumni .section-item-slider {
+    height: 300px;
+    padding: 20px;
+    overflow: hidden;
+  }
+  .foto-alumni {
+    height: 100%;
+    object-fit: cover;
+  } */
+  /* #ekstrakurikuler .section-body-item {
+    font-size: 15px;
+  } */
+  /* #ekstrakurikuler .section-body-item h4 {
+    font-weight: 300;
+  } */
+}

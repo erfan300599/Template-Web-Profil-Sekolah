@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Neflix</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
+
+	<!-- OwlCarousel CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/OwlCarousel2/owlcarousel/assets/owl.carousel.min.css">
+
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+
+	<!-- My CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<!--top contact medsos-->
+	<div class="medsos">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<ul>
+						<li><a href="#"><i class="fas fa-phone"> 081319738474</i></a></li>
+						<li><a href="#"><i class="fas fa-envelope"> erfantoandreas@gmail.com</i></a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-3">
+					<ul>
+						<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Akhir Top Contact Medsos-->
+
+
+	<!-- Logo SMPK Yapenthom 1 Maumere -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<div class="brand">
+						<img src="img/logo.jpg" width="160px" height="160px" alt="Logo SMPK Yapenthom 1 MAUMERE">
+						<div class="brand-name">
+							<h1>SMPK YAPENTHOM 1 MAUMERE</h1>
+							<h3>Sekolah Pencetak Generasi Teladan Dan Berprestasi</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md pembungkus-searchbox">
+					<div class="searchbox">
+						<form method="GET">
+							<div class="input-group">
+								<input class="form-control" type="text" name="" placeholder="Cari Sesuatu"
+									aria-label="Cari Sesuatu" aria-describedby="tombol-cari">
+								<div class="input-group-append">
+									<button class="btn btn-utama" id="tombo-cari">Cari</button>
+								</div>
+							</div>
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Akhir Logo SMPK Yapenthom 1 Maumere -->
+
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">
+			<button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div id="my-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Beranda</a>
+					</li>
+					<!-- </li> -->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+							aria-haspopup="true" aria-expanded="false">Profil</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Sejarah</a>
+							<a class="dropdown-item" href="#">Visi dan Misi</a>
+							<a class="dropdown-item" href="#">Peta Sekolah</a>
+						</div>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+							aria-haspopup="true" aria-expanded="false">Sarana & Prasarana</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Sarana Infrastruktur</a>
+							<a class="dropdown-item" href="#">Sarana Pembelajaran</a>
+						</div>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="#">Ekstrakurikuler</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Prestasi</a>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+							aria-haspopup="true" aria-expanded="false">Berita</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Berita Sekolah</a>
+							<a class="dropdown-item" href="#">Pengumuman</a>
+							<a class="dropdown-item" href="#">Agenda</a>
+							<a class="dropdown-item" href="#">Kelender Akademik</a>
+						</div>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+							aria-haspopup="true" aria-expanded="false">Galeri</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Galeri Foto</a>
+							<a class="dropdown-item" href="#">Galeri Video / Dokumentasi</a>
+						</div>
+					</li>
+
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Kontak</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Akhir Navbar -->
+
+
+	<!-- Coursel -->
+	<!-- <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+			<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+			<li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/banner-siswa.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+
+					<div class="jumbotron jumbotron-fluid" style="color: #15477a;margin:auto;opacity: 0.9;">
+						<div class="container">
+							<h1 class="display-4" style="font-size: 25px;font-family: arial black">PENERIMAAN PESERTA
+								DIDIK BARU TA 2022/2023 TELAH DIBUKA!</h1>
+							<p class="lead">Silakan anda bisa akses <a href="#">ppdb.smpkyapenthom1.sch.id</a> untuk
+								mendapatkan semua informasi terkait pendaftaran PPDB tahun ajaran 2022/2023 SMPK
+								Yapenthom 1 Maumere</p>
+							<a class="btn btn-primary btn-lg" href="#" role="button">Daftar PPDB</a>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!--     <div class="carousel-item">
+      <img src="img/bg2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/bg2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+
+	<div class="carousel-item">
+	    <img src="img/bg2.jpg" class="d-block w-100" alt="...">
+	    <div class="carousel-caption d-none d-md-block">
+	        <h5>Third slide label</h5>
+	        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+	    </div>
+	</div> -->
+	<!-- </div>
+	<a class="carousel-control-prev ml-4" href="#carouselExampleCaptions" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon mr-auto" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next mr-4" href="#carouselExampleCaptions" role="button" data-slide="next">
+		<span class="carousel-control-next-icon ml-auto" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+	</div> -->
+	<!-- Akhir Coursel -->
+
+	<!-- Slider Hero Area -->
+	<section id="hero-area">
+		<div id="slider-hero-nav">
+			<div class="owl-carousel" id="slider-hero">
+				<div class="slider-item">
+					<div class="slider-item-img">
+						<img src="img/bg2.jpg" alt="">
+					</div>
+					<div class="slider-item-content">
+						<h2>Penerimaan Peserta Didik Baru TA 2022/2023 Telah Dibuka!</h2>
+						<p>Silakan anda bisa akses <a href="#">ppdb.smpkyapenthom1.sch.id</a> untuk
+							mendapatkan semua informasi terkait pendaftaran PPDB tahun ajaran 2022/2023 SMPK
+							Yapenthom 1 Maumere</p>
+						<button class="btn btn-utama">Daftar PPDB</button>
+					</div>
+				</div>
+
+				<div class="slider-item">
+					<div class="slider-item-img">
+						<img src="img/bg2.jpg" alt="">
+					</div>
+					<div class="slider-item-content">
+						<h2>Penerimaan Peserta Didik Baru TA 2022/2023 Telah Dibuka!</h2>
+						<p>Silakan anda bisa akses <a href="#">ppdb.smpkyapenthom1.sch.id</a> untuk
+							mendapatkan semua informasi terkait pendaftaran PPDB tahun ajaran 2022/2023 SMPK
+							Yapenthom 1 Maumere</p>
+						<button class="btn btn-utama">Daftar PPDB</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Akhir Slider Hero Area -->
+
+
+	<!-- Profil Dan Sambutan Kepala Sekolah -->
+	<section id="sambutan">
+		<div class="container">
+			<h2>Profil SMPK Yapenthom 1 Maumere</h2>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="video-wrapper">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/ql_WaTiwygk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h2>Sambuatan Kepala Sekolah</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aliquid soluta ad iure. Ratione
+						modi hic assumenda quos, eum ad dolor expedita rem laborum sunt autem, repudiandae alias dolorum
+						porro?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi blanditiis sequi quod
+						quae molestias optio nobis atque veritatis ad labore quo rerum quasi tempora corporis saepe ab
+						adipisci, maxime fuga?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim hic quis
+						illo consequatur sit! Modi, voluptates. In ipsa laudantium nihil sunt a, veritatis, nesciunt aut
+						architecto quae labore repellendus. Necessitatibus.
+					</p>
+					<a href="#" class="btn btn-utama">Baca Selengkapanya</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Akhir Profil Dan Sambutan Kepala Sekolah -->
+
+
+	<!-- Prestasi -->
+	<section id="prestasi">
+		<div class="container">
+			<div class="section-title">
+				<h2>Prestasi Terbaru</h2>
+			</div>
+			<div class="section-item">
+				<div class="row">
+					<div class="col-md-6">
+						<img class="section-item-thumbnail" src="img/gambar.jpg" alt="">
+					</div>
+					<div class="col-md-6 col-md-kanan">
+						<div class="section-item-title">
+							<a href="#">
+								<h3>Medali Perak Dalam IOI Olympiad In Informatics/IOI di Jakarta</h3>
+							</a>
+							<div class="section-item-meta">
+								<span><i class="far fa-calendar-alt"></i>20 Agust 2020 - 22 Agust 2020</span>
+								<span><i class="fas fa-map-marked-alt"></i>Depok,Jakarta Timur</span>
+							</div>
+						</div>
+						<div class="section-item-bod">
+							<p>
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad perspiciatis officia
+								doloribus
+								illum suscipit accusantium nemo impedit laboriosam. Corrupti distinctio, corporis culpa
+								laborum
+								exercitationem dignissimos accusamus deserunt at expedita. Magnam. Lorem ipsum dolor
+								sit,
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="section-item">
+				<div class="row">
+					<div class="col-md-6">
+						<img class="section-item-thumbnail" src="img/gambar.jpg" alt="">
+					</div>
+					<div class="col-md-6 col-md-kanan">
+						<div class="section-item-title">
+							<a href="#">
+								<h3>Medali Perak Dalam IOI Olympiad In Informatics/IOI di Jakarta</h3>
+							</a>
+							<div class="section-item-meta">
+								<span><i class="far fa-calendar-alt"></i>20 Agust 2020 - 22 Agust 2020</span>
+								<span><i class="fas fa-map-marked-alt"></i>Depok,Jakarta Timur</span>
+							</div>
+						</div>
+						<div class="section-item-bod">
+							<p>
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad perspiciatis officia
+								doloribus
+								illum suscipit accusantium nemo impedit laboriosam. Corrupti distinctio, corporis culpa
+								laborum
+								exercitationem dignissimos accusamus deserunt at expedita. Magnam. Lorem ipsum dolor
+								sit,
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="section-item">
+				<div class="row">
+					<div class="col-md-6">
+						<img class="section-item-thumbnail" src="img/gambar.jpg" alt="">
+					</div>
+					<div class="col-md-6 col-md-kanan">
+						<div class="section-item-title">
+							<a href="#">
+								<h3>Medali Perak Dalam IOI Olympiad In Informatics/IOI di Jakarta</h3>
+							</a>
+							<div class="section-item-meta">
+								<span><i class="far fa-calendar-alt"></i>20 Agust 2020 - 22 Agust 2020</span>
+								<span><i class="fas fa-map-marked-alt"></i>Depok,Jakarta Timur</span>
+							</div>
+						</div>
+						<div class="section-item-bod">
+							<p>
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad perspiciatis officia
+								doloribus
+								illum suscipit accusantium nemo impedit laboriosam. Corrupti distinctio, corporis culpa
+								laborum
+								exercitationem dignissimos accusamus deserunt at expedita. Magnam. Lorem ipsum dolor
+								sit,
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="tombol-selengkapnya">
+				<a href="#" class="btn btn-more">Lihat Prestasi Selengkapnya</a>
+			</div>
+		</div>
+	</section>
+	<!-- Akhir Prestasi -->
+
+
+	<!-- Ekstrakurikuler -->
+	<section id="ekstrakurikuler">
+		<div class="container">
+			<div class="section-title">
+				<h2>Ekstrakurikuler</h2>
+			</div>
+			<div class="section-body">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="section-body-item">
+							<div class="row row-2">
+								<div class="col-md-3">
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<div class="col-md-9">
+									<h4>Praja Muda Karana (Pramuka)</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="section-body-item">
+							<div class="row row-2">
+								<div class="col-md-3">
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<div class="col-md-9">
+									<h4>Praja Muda Karana (Pramuka)</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="section-body-item">
+							<div class="row row-2">
+								<div class="col-md-3">
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<div class="col-md-9">
+									<h4>Praja Muda Karana (Pramuka)</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="section-body-item">
+							<div class="row row-2">
+								<div class="col-md-3">
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<div class="col-md-9">
+									<h4>Praja Muda Karana (Pramuka)</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="section-body-item">
+							<div class="row row-2">
+								<div class="col-md-3">
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<div class="col-md-9">
+									<h4>Praja Muda Karana (Pramuka)</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="section-body-item">
+							<div class="row row-2">
+								<div class="col-md-3">
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<div class="col-md-9">
+									<h4>Praja Muda Karana (Pramuka)</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tombol-selengkapnya">
+				<a href="#" class="btn btn-more">Lihat Semua Ekstrakurikuler</a>
+			</div>
+	</section>
+	<!-- Akhir Ekstrakurikuler -->
+
+
+	<!-- Tenaga Pendidik -->
+	<section id="tenaga-pendidik">
+		<div class="container">
+			<div class="section-title">
+				<h2>Tenaga Pendidik</h2>
+			</div>
+
+			<div class="section-body">
+				<div id="slider-tools-1">
+					<div class="owl-carousel" id="tenaga-pendidik-slider">
+						<div class="section-item-slider">
+							<img class="foto-guru" src="img/foto-guru-1.jpg" alt="">
+							<div class="section-item-caption">
+								<a href="#">
+									<h5>Sarno S.Pd, M.Pd</h5>
+								</a>
+								<h6>Guru Bahasa Indonesia</h6>
+							</div>
+						</div>
+						<div class="section-item-slider">
+							<img class="foto-guru" src="img/foto-guru-1.jpg" alt="">
+							<div class="section-item-caption">
+								<a href="#">
+									<h5>Drs. Maharani</h5>
+								</a>
+								<h6>Guru Bimbingan Konseling</h6>
+							</div>
+						</div>
+						<div class="section-item-slider">
+							<img class="foto-guru" src="img/foto-guru-1.jpg" alt="">
+							<div class="section-item-caption">
+								<a href="#">
+									<h5>Drs. Maharani</h5>
+								</a>
+								<h6>Guru Bimbingan Konseling</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div><br><br>
+		<div class="tombol-selengkapnya">
+			<a href="#" class="btn btn-more">Lihat Semua Guru</a>
+		</div>
+	</section>
+	<!-- Akhir Tenaga Pendidik -->
+
+
+	<!-- Profil Alumni -->
+	<section id="profil-alumni">
+		<div class="container">
+			<div class="section-title">
+				<h2>Profil Alumni</h2>
+			</div>
+			<div class="section-body">
+				<div id="slider-tools-2"></div>
+				<div class="owl-carousel" id="alumni-slider">
+					<div class="section-item-slider">
+						<div class="row">
+							<div class="col-md-5">
+								<img class="foto-alumni" src="img/foto-guru-1.jpg" alt="">
+							</div>
+							<div class="col-md-7">
+								<div class="section-item-content">
+									<a href="#">
+										<h3>Lorem ipsum dolor sit.</h3>
+									</a>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, facilis
+										soluta? Sint nobis itaque natus asperiores repellat cupiditate odio molestias
+										exercitationem delectus magni, quas, culpa, voluptatibus deleniti iste. Earum,
+										ipsam.
+									</p>
+									<a href="#" class="more">Baca Selengkapnya <i class="fas fa-arrow-right"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section-item-slider">
+						<div class="row">
+							<div class="col-md-5">
+								<img class="foto-alumni" src="img/foto-guru-1.jpg" alt="">
+							</div>
+							<div class="col-md-7">
+								<div class="section-item-content">
+									<a href="#">
+										<h3>Lorem ipsum dolor sit.</h3>
+									</a>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, facilis
+										soluta? Sint nobis itaque natus asperiores repellat cupiditate odio molestias
+										exercitationem delectus magni, quas, culpa, voluptatibus deleniti iste. Earum,
+										ipsam.
+									</p>
+									<a href="#" class="more">Baca Selengkapnya <i class="fas fa-arrow-right"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Akhir Profil Alumni -->
+
+
+	<!-- Galeri / Dokumentasi -->
+	<section id="galeri">
+		<div class="container">
+			<div class="section-title">
+				<h2>Galeri / Dokumentasi</h2>
+			</div>
+
+			<div class="section-body">
+				<div id="slider-tools-3">
+					<div class="owl-carousel" id="galeri-slider">
+						<div class="section-item-slider">
+							<img class="foto-guru" src="img/foto-guru-1.jpg" alt="">
+							<div class="section-item-caption">
+								<a href="">
+									<h5>Lorem ipsum dolor sit.</h5>
+								</a>
+								<h6>Lorem, ipsum dolor.</h6>
+							</div>
+						</div>
+						<div class="section-item-slider">
+							<img class="foto-guru" src="img/foto-guru-1.jpg" alt="">
+							<div class="section-item-caption">
+								<a href="">
+									<h5>Lorem ipsum dolor sit.</h5>
+								</a>
+								<h6>Lorem, ipsum dolor.</h6>
+							</div>
+						</div>
+						<div class="section-item-slider">
+							<div class="video-wrapper video-galeri">
+								<iframe src="https://www.youtube.com/embed/xx"
+									allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture"
+									allowfullscreen frameborder="0"></iframe>
+							</div>
+							<div class="section-item-caption">
+								<h5>Lorem ipsum dolor sit.</h5>
+								<h6>lorem3</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div><br><br>
+		<div class="tombol-selengkapnya">
+			<a href="#" class="btn btn-more">Lihat Galeri Selengkapnya</a>
+		</div>
+	</section>
+	<!-- Akhir Galeri / Dokumentasi -->
+
+
+	<!-- Berita Terbaru -->
+	<section id="berita-terbaru">
+		<div class="container">
+			<div class="section-title">
+				<h2>Berita Terbaru</h2>
+			</div>
+			<div class="section-body">
+				<div class="row">
+					<div class="col-md-4 col-kontak">
+						<div class="section-thumbnail">
+							<img src="img/banner-siswa.jpg" alt="">
+							<div class="tanggal">
+								<span class="tgl">14</span>
+								<span class="tgl-2">Oktober 2020</span>
+							</div>
+						</div>
+
+						<div class="section-content">
+							<a href="#">
+								<h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
+							</a>
+							<p>
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam unde beatae explicabo
+								repellendus sit iste delectus sed, illo provident totam porro blanditiis nihil
+								recusandae iure consectetur! Odio dolor <a href="#">[...]</a>
+							</p>
+						</div>
+
+						<div class="section-meta">
+							<a href="#">Kegiatan</a>
+							<a href="#"> <i class="fas fa-user"></i> Admin</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-kontak">
+						<div class="section-thumbnail">
+							<img src="img/banner-siswa.jpg" alt="">
+							<div class="tanggal">
+								<span class="tgl">14</span>
+								<span class="tgl-2">Oktober 2020</span>
+							</div>
+						</div>
+
+						<div class="section-content">
+							<a href="#">
+								<h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
+							</a>
+							<p>
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam unde beatae explicabo
+								repellendus sit iste delectus sed, illo provident totam porro blanditiis nihil
+								recusandae iure consectetur! Odio dolor <a href="#">[...]</a>
+							</p>
+						</div>
+
+						<div class="section-meta">
+							<a href="#">Kegiatan</a>
+							<a href="#"> <i class="fas fa-user"></i> Admin</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-kontak">
+						<div class="section-thumbnail">
+							<img src="img/banner-siswa.jpg" alt="">
+							<div class="tanggal">
+								<span class="tgl">14</span>
+								<span class="tgl-2">Oktober 2020</span>
+							</div>
+						</div>
+
+						<div class="section-content">
+							<a href="#">
+								<h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
+							</a>
+							<p>
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam unde beatae explicabo
+								repellendus sit iste delectus sed, illo provident totam porro blanditiis nihil
+								recusandae iure consectetur! Odio dolor <a href="#">[...]</a>
+							</p>
+						</div>
+
+						<div class="section-meta">
+							<a href="#">Kegiatan</a>
+							<a href="#"> <i class="fas fa-user"></i>Admin</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4 col-kontak">
+						<div class="section-thumbnail">
+							<img src="img/banner-siswa.jpg" alt="">
+							<div class="tanggal">
+								<span class="tgl">14</span>
+								<span class="tgl-2">Oktober 2020</span>
+							</div>
+						</div>
+
+						<div class="section-content">
+							<a href="#">
+								<h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
+							</a>
+							<p>
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam unde beatae explicabo
+								repellendus sit iste delectus sed, illo provident totam porro blanditiis nihil
+								recusandae iure consectetur! Odio dolor <a href="#">[...]</a>
+							</p>
+						</div>
+
+						<div class="section-meta">
+							<a href="#">Kegiatan</a>
+							<a href="#"> <i class="fas fa-user"></i>Admin</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-kontak">
+						<div class="section-thumbnail">
+							<img src="img/banner-siswa.jpg" alt="">
+							<div class="tanggal">
+								<span class="tgl">14</span>
+								<span class="tgl-2">Oktober 2020</span>
+							</div>
+						</div>
+
+						<div class="section-content">
+							<a href="#">
+								<h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
+							</a>
+							<p>
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam unde beatae explicabo
+								repellendus sit iste delectus sed, illo provident totam porro blanditiis nihil
+								recusandae iure consectetur! Odio dolor <a href="#">[...]</a>
+							</p>
+						</div>
+
+						<div class="section-meta">
+							<a href="#">Kegiatan</a>
+							<a href="#"> <i class="fas fa-user"></i> Admin</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-kontak">
+						<div class="section-thumbnail">
+							<img src="img/banner-siswa.jpg" alt="">
+							<div class="tanggal">
+								<span class="tgl">14</span>
+								<span class="tgl-2">Oktober 2020</span>
+							</div>
+						</div>
+
+						<div class="section-content">
+							<a href="#">
+								<h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
+							</a>
+							<p>
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam unde beatae explicabo
+								repellendus sit iste delectus sed, illo provident totam porro blanditiis nihil
+								recusandae iure consectetur! Odio dolor <a href="#">[...]</a>
+							</p>
+						</div>
+
+						<div class="section-meta">
+							<a href="#">Kegiatan</a>
+							<a href="#"> <i class="fas fa-user"></i> Admin</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br><br><br>
+		<div class="tombol-selengkapnya">
+			<a href="#" class="btn btn-more">Lihat Berita Selengkapnya</a>
+		</div>
+	</section>
+	<!-- Akhir Berita Terbaru -->
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="footer-col">
+						<div class="brand">
+							<img src="img/logo.jpg" alt="Logo SMPK Yapenthom 1 MAUMERE">
+							<h2>SMPK YAPENTHOM 1 MAUMERE</h2>
+						</div>
+						<p class="tentang">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam incidunt ab
+							repellat dolore
+							ea
+							autem, atque eius modi nobis sed illo dolores magnam debitis non ipsam,
+							consequuntur
+							aperiam.</p>
+					</div>
+					<ul class="sosmed">
+						<li> <a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li> <a href="#"> <i class="fab fa-youtube"></i></a></li>
+						<li> <a href="#"><i class="fab fa-instagram"></i></a></li>
+					</ul>
+
+				</div>
+				<div class=" col-md-4 col-alamat">
+					<div class="footer-col">
+						<h2>Kontak Kami</h2>
+						<p class="alamat">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, porro!</p>
+						<ul class="kontak">
+							<li> <i class="fas fa-phone"></i> 081319738474</li>
+							<li> <i class="fas fa-envelope"></i> andreaserfanto@gmail.com</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-alamat">
+					<div class="footer-col">
+						<h2>Navigasi</h2>
+						<ul class="footer-nav">
+							<li> <a href="#">Profil</a> </li>
+							<li> <a href="#">Visi Dan Misi</a> </li>
+							<li> <a href="#">Struktur Organisasi</a> </li>
+							<li> <a href="#">Sumber Daya Manusia</a> </li>
+							<li> <a href="#">Pendaftaran PPDB 2022 <span>Info</span></a> </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-copyrights">
+			<div class="border">
+				<div class="container text-center">
+					<h6>Hak cipta dilindungi. © 2020 <a href="#">Teamyapenthom1.com</a></h6>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Akhir Footer -->
+
+
+	<script src="assets/bootstrap/js/jQuery-3.5.1.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/OwlCarousel2/owlcarousel/owl.carousel.min.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>
